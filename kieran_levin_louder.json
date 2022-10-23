@@ -1,0 +1,154 @@
+{
+    "output": {
+        "blocklist": [],
+        "equalizer": {
+            "balance": 0.0,
+            "bypass": false,
+            "input-gain": 0.0,
+            "left": {
+                "band0": {
+                    "frequency": 80.0,
+                    "gain": 0.0,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 4.36,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Hi-pass"
+                },
+                "band1": {
+                    "frequency": 600.0,
+                    "gain": -8.0,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 4.0,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Notch"
+                },
+                "band2": {
+                    "frequency": 1250.0,
+                    "gain": -3.49,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 4.17,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band3": {
+                    "frequency": 2016.0,
+                    "gain": 4.85,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 0.67,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band4": {
+                    "frequency": 5272.0,
+                    "gain": 3.83,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 2.64,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Notch"
+                },
+                "band5": {
+                    "frequency": 6000.0,
+                    "gain": 4.85,
+                    "mode": "RLC (BT)",
+                    "mute": true,
+                    "q": 4.36,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Hi-shelf"
+                }
+            },
+            "mode": "IIR",
+            "num-bands": 6,
+            "output-gain": 0.0,
+            "pitch-left": 0.0,
+            "pitch-right": 0.0,
+            "right": {
+                "band0": {
+                    "frequency": 80.0,
+                    "gain": 0.0,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 4.36,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Hi-pass"
+                },
+                "band1": {
+                    "frequency": 600.0,
+                    "gain": -8.0,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 4.0,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Notch"
+                },
+                "band2": {
+                    "frequency": 1250.0,
+                    "gain": -3.49,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 4.17,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band3": {
+                    "frequency": 2016.0,
+                    "gain": 4.85,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 0.67,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Bell"
+                },
+                "band4": {
+                    "frequency": 5272.0,
+                    "gain": 3.83,
+                    "mode": "RLC (BT)",
+                    "mute": false,
+                    "q": 2.64,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Notch"
+                },
+                "band5": {
+                    "frequency": 6000.0,
+                    "gain": 4.85,
+                    "mode": "RLC (BT)",
+                    "mute": true,
+                    "q": 4.36,
+                    "slope": "x1",
+                    "solo": false,
+                    "type": "Hi-shelf"
+                }
+            },
+            "split-channels": false
+        },
+        "loudness": {
+            "bypass": false,
+            "clipping": false,
+            "clipping-range": 6.0,
+            "fft": "4096",
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "std": "ISO226-2003",
+            "volume": 6.999999999999991
+        },
+        "plugins_order": [
+            "loudness",
+            "equalizer"
+        ]
+    }
+}
