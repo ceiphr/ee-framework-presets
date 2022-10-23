@@ -7,3 +7,5 @@ The name of the preset is the username of the creator on that community thread. 
 How do I import these? [Read here](https://github.com/Digitalone1/EasyEffects-Presets#how-to-install).
 
 You will need [EasyEffects](https://github.com/wwmm/easyeffects) for this.
+
+**Note on louder presets:** You may notice residual ~1ms audio artifacts when pausing/playing media. This issue can be tracked [here](https://github.com/wwmm/easyeffects/issues/1463).
